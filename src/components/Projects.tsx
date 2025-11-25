@@ -53,20 +53,6 @@ const Projects = () => {
               ))}
             </div>
 
-            <div className="flex gap-4">
-              <a
-                href={project.github}
-                className="bg-pink-400 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-pink-500 transition"
-              >
-                GitHub
-              </a>
-              <a
-                href={project.demo}
-                className="bg-pink-200 text-pink-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-pink-300 transition"
-              >
-                Live Demo
-              </a>
-            </div>
           </motion.div>
         ))}
       </div>
