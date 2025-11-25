@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const Navbar = () => {
   const sections = [
@@ -14,7 +14,8 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-pink-100/70 backdrop-blur-md z-50 shadow-sm">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-3">
+      <div className="hidden sm:flex gap-6">
+        <div className="sm:hidden cursor-pointer text-pink-600">☰</div>
         <h1 className="text-lg font-bold text-pink-600 tracking-wide">
           Kavya Sudhakara Naidu
         </h1>

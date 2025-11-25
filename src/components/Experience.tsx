@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SectionWrapper from "./SectionWrapper";
 
 const Experience = () => {
@@ -26,7 +26,7 @@ const Experience = () => {
   return (
     <SectionWrapper
       id="experience"
-      className="min-h-screen flex flex-col items-center px-6 py-20 bg-pink-50"
+      className="min-h-screen flex flex-col items-center px-4 sm:px-6 sm:py-20 bg-pink-50"
     >
       <h2 className="text-3xl font-bold text-pink-600 mb-10">Experience</h2>
 

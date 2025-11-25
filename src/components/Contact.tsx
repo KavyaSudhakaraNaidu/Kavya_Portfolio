@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SectionWrapper from "./SectionWrapper";
 
 const Contact = () => {
@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <h2 className="text-3xl font-bold text-pink-600 mb-8">Contact</h2>
 
-      <p className="text-gray-700 text-center max-w-xl mb-6">
+      <p className="text-gray-700 text-sm sm:text-base max-w-xl text-center">
         Feel free to reach out if you'd like to collaborate, talk about a
         project, or just say hello!
       </p>

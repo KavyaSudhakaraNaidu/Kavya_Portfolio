@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import { motion } from "framer-motion";
 
@@ -24,7 +24,7 @@ const Skills = () => {
     >
       <h2 className="text-3xl font-bold text-pink-600 mb-10">Skills</h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl">
         {skills.map((skill) => (
           <motion.div
             key={skill}

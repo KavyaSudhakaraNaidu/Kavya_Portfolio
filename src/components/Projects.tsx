@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import { motion } from "framer-motion";
 
@@ -34,13 +34,13 @@ const Projects = () => {
     >
       <h2 className="text-3xl font-bold text-pink-600 mb-10">Projects</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full px-3">
         {projects.map((project) => (
           <motion.div
             key={project.title}
             whileHover={{ scale: 1.03 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="bg-pink-50 border border-pink-200 shadow-md rounded-xl p-6 hover:shadow-lg transition-shadow"
+            className="bg-pink-50 border border-pink-200 shadow-md rounded-xl p-4 sm:p-6"
           >
             <h3 className="text-xl font-semibold text-pink-700 mb-2">
               {project.title}
