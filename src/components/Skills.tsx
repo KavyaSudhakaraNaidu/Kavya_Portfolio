@@ -4,17 +4,27 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   const skills = [
-    "HTML",
-    "CSS",
+    "Java 8/11",
+    "Python",
+    "C",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Tailwind CSS",
+    "Spring Boot",
+    "JDBC",
+    "RESTful APIs",
+    "React.js",
     "Node.js",
-    "Git",
+    "HTML",
+    "CSS",
+    "PHP",
+    "MySQL",
+    "RDBMS",
+    "Oracle", 
+    "AWS Lambda", "AWS", "Amazon EC2", "Amazon S3",
+    "Git", "Linux", "Jenkins", 
     "GitHub",
-    "Java",
-    "SQL",
+    "Agile/Scrun Methodologies",
+    "Algorithms", "Data Structures", "System Design", "SDLC",
   ];
 
   return (

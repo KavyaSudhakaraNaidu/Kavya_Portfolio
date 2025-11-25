@@ -4,22 +4,22 @@ import SectionWrapper from "./SectionWrapper";
 const Experience = () => {
   const experience = [
     {
-      role: "Software Developer Intern",
-      company: "ABC Tech",
-      period: "2024 — Present",
-      desc: "Working on building responsive user interfaces and improving frontend performance using React, TypeScript, and Tailwind CSS.",
+      role: "Senior Systems Engineer",
+      company: "Infosys Ltd., India (Client: Goldman Sachs - AM Public Division",
+      period: "March 2021 — August 2023",
+      desc: "During my time at Infosys, I worked as a contingent developer for the Goldman Sachs Asset Management Public Division, where I contributed to building reliable, scalable backend services. I designed and developed microservices using Java, Spring Boot, and RESTful APIs, enhancing core system performance by nearly 30%. I also worked on improving user-facing interfaces with React.js, which helped reduce interaction latency and improve client experience. A major part of my role involved automating deployment pipelines using CI/CD tools and Git, which reduced manual deployment effort by 40% and made releases more consistent. I collaborated closely with product owners, developers, and stakeholders to refine requirements and deliver solutions that improved efficiency and accelerated timelines. Additionally, I supported AWS compute services integration work that reduced infrastructure costs by 25% while improving deployment scalability. My experience at Infosys strengthened my technical skills while helping me grow into a more structured, responsible, and user-focused engineer.",
     },
     {
-      role: "Web Development Intern",
-      company: "NextGen Web Solutions",
-      period: "2023 — 2024",
-      desc: "Developed reusable UI components, optimized page layouts, and assisted in backend integration using REST APIs.",
+      role: "Software Development Intern",
+      company: "Laboratory of Electro-Optic Systes(LEOS), ISRO, India",
+      period: "January 2020 — February 2020",
+      desc: "I interned at the Laboratory for Electro-Optics Systems (LEOS), a research center under the Indian Space Research Organization (ISRO). My primary contribution was developing a custom Leave Management System using an open-source tech stack. I managed the entire development cycle—from gathering requirements to testing and deployment—reducing HR’s manual workloads by 40%. I also built automated testing scripts to verify features and improve adoption efficiency by 35%. This experience taught me how to approach systems from an end-to-end perspective and deliver practical solutions for real users.",
     },
     {
-      role: "Computer Science Student",
-      company: "University Project Work",
-      period: "2021 — 2023",
-      desc: "Built academic projects including task manager apps, portfolio designs, and full-stack prototypes using React and Java.",
+      role: "IoT & Machine Learning Intern",
+      company: "CISCO - RV College of Engineering Centre of Excellence in IoT, India",
+      period: "July 2019 — August 2019",
+      desc: "At CISCO-RVCE Centre of Excellence in Internet of Things(IoT), I worked on IoT sensor calibration using machine learning techniques. I implemented Python-based ML models that improved sensor accuracy by 20% and created workflows to streamline data capture and validation. I also practiced version control using Git, which helped our team collaborate more efficiently and track changes more effectively. This internship gave me exposure to the intersection of hardware, software, and data, and helped strengthen my programming and analytical abilities.",
     },
   ];
 

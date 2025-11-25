@@ -8,22 +8,16 @@ const Projects = () => {
       title: "Personal Portfolio Website",
       desc: "A modern, responsive portfolio built using React, TypeScript, and Tailwind CSS.",
       tech: ["React", "TypeScript", "Tailwind"],
-      github: "#",
-      demo: "#",
     },
     {
-      title: "E-commerce UI Design",
-      desc: "A clean and mobile-friendly e-commerce interface with reusable components.",
+      title: "Leave Management System for LEOS_ISRO",
+      desc: "Built a complete leave management system using an open-source stack. Managed full SDLC from requirements to deployment, reducing manual HR processing by 40% and improving team productivity with automated test scripts.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      demo: "#",
     },
     {
-      title: "Task Manager App",
-      desc: "A simple task management tool with CRUD features and localStorage support.",
+      title: "Design and Implementation of a Secured System to Identify Illegal Disposal of Waste",
+      desc: "Designed a video surveillance solution using Raspberry Pi, OpenCV, and face recognition. Achieved 90% accuracy in identifying illegal garbage disposal incidents.",
       tech: ["React", "JavaScript"],
-      github: "#",
-      demo: "#",
     },
   ];
 

@@ -4,19 +4,19 @@ import SectionWrapper from "./SectionWrapper";
 const Certifications = () => {
   const certs = [
     {
-      title: "AWS Cloud Practitioner",
-      provider: "Amazon Web Services",
-      year: "2024",
+      title: "Amazon Junior Software Developer with GenAI",
+      provider: "Coursera",
+      year: "2025",
     },
     {
-      title: "JavaScript Essentials",
-      provider: "Cisco Networking Academy",
-      year: "2023",
+      title: "AWS Fundamentals Specalization",
+      provider: "Coursera",
+      year: "2025",
     },
     {
-      title: "React Frontend Developer",
-      provider: "Meta Coursera",
-      year: "2023",
+      title: "IBM DevOps, Cloud & Agile Fundamentals",
+      provider: "Coursera",
+      year: "2025",
     },
   ];
 

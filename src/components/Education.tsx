@@ -4,16 +4,16 @@ import SectionWrapper from "./SectionWrapper";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      school: "Your University Name",
-      period: "2019 — 2023",
-      desc: "Gained strong foundations in software development, data structures, algorithms, and computer science fundamentals.",
+      degree: "Masters in Information Systems",
+      school: "Saint Louis University",
+      location: "Saint Louis, Missouri, USA",
+      period: "August 2023 — May 2025",
     },
     {
-      degree: "High School Diploma",
-      school: "Your High School Name",
+      degree: "Bachelor of Engineering in Computer Science and Engineering",
+      school: "K S School of Engineering and Management",
+      location: "Bengaluru, Karnataka, India",
       period: "2017 — 2019",
-      desc: "Completed coursework in mathematics, sciences, and computer fundamentals.",
     },
   ];
 
@@ -32,8 +32,8 @@ const Education = () => {
           >
             <h3 className="text-xl font-semibold text-pink-700">{edu.degree}</h3>
             <p className="text-gray-800 font-medium">{edu.school}</p>
+            <p className="text-gray-700 leading-relaxed">{edu.location}</p>
             <p className="text-sm text-gray-500 mb-3">{edu.period}</p>
-            <p className="text-gray-700 leading-relaxed">{edu.desc}</p>
           </div>
         ))}
       </div>
